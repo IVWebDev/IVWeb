@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: ;
+}
+.navbar-brand img{
+
+}
+.navbar-nav li{
+	padding-right: 20px;
+}
+.nav-link{
+	font-size: 1.1em !important
+}
+.carousel-inner{
+	height: 500px;
+}
+.carousel-inner img{
+	height: 100%;
+}
+@media (min-width: 1100px) {
+	.carousel-inner img{
+		width: 100%;
+	}
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-80%);
+	text-shadow: 1px 1px 10px #000;
+}
+@media (max-width: 450px) {
+	.carousel-caption .display-2{
+		font-size: 2em;
+	}
+}
+.padding{
+	padding-bottom: 2em;
+}
+.alert hr{
+	border-top: 2px solid black;
+	width: 25%;
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+
+}
+.card{
+	display: block;
+	padding: 20px;
+}
+.card img{
+	float:left;
+	width:10%;
+}
+.card-title{
+	float:left;
+	width:90%;
+}
+.card-body{
+	width: 100%;
+	margin:0 auto;
+}
+.block-title{
+	color: black;
+	font-size:30px;
+}
+.block-title hr{
+	border-top: 2px solid black;
+	width: 30%;
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+}
+.block-title p{
+	margin:0 auto;
+	font-size: 0.7em;
+	width: 30%;
+}
+
+.job-wrap{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.job-wrap img{
+	width: 100%;
+	height:100%;
+	background: black;	
+}
+.job-wrap a{
+	display: block;
+}
+.job-wrap:hover img{
+	filter: blur(1px);
+	opacity: 0.4;
+	transform:scale(1.3); 
+	-webkit-transform:scale(1.3); 
+	-moz-transform:scale(1.3); 
+	-o-transform:scale(1.3); 
+	-ms-transform:scale(1.3); 
+}
+.text{
+	position: absolute;
+	top:50%;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	color: black;
+	text-transform: uppercase;
+	padding: 0 10px;
+	opacity: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+.job-wrap:hover .text{
+	opacity: 1;
+}
+.work{
+	background-color:#6C6D69;
+	width: 95%;
+	height: 100%;
+}
+.work-logo{
+	float: left;
+	width: 20%;
+}
+.work-logo img{
+	height: 100%;
+}
+.work-content{
+	float: left;
+	width: 80%;
+	color: white;
+	height: 100%;
+	bottom: 0;
+}
+.work-content h5{
+	font-size: 25px;
+	margin:0 auto;
+}
+.work-content p{
+	font-size: 18px;
+	bottom: 0;
+}
+#fixed{
+	height: 500px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	background: url(../img/theme.jpg) no-repeat center center fixed;
+	background-blend-mode:multiply;
+	background-color: lightblue;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-background-size: cover;
+}
+.reviews-wrap{
+	overflow: hidden;
+	margin-top: 30px;
+	border: 2px solid black;
+}
+.reviews-wrap img{
+	width:100%;
+	height: 100%;
+}
+.reviews-wrap a{
+	display: block;
+}
+.reviews-wrap:hover a{
+	transform:scale(1.3); 
+	-webkit-transform:scale(1.3); 
+	-moz-transform:scale(1.3); 
+	-o-transform:scale(1.3); 
+	-ms-transform:scale(1.3); 
+}
+#btn{
+	width: 100%;
+}
+#more{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.map h2{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	width: 80%;
+	margin:0 auto;
+}
+.map hr{
+	border-top: 2px solid black;
+	width: 30%;
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+}
+footer{
+	background-color: #3f3f3f;
+	padding-top: 10px;
+	border-top: 2px solid silver;
+	color: white;
+}
+.social a{
+	font-size: 4em;
+	padding-right:20px; 
+}
+.fa-facebook{color: #3b5998;}
+.fa-instagram{color: #517fa4;}
+.fa-whatsapp{color: #5AF979;}
+.fa-vk{color: #3b5998}
+
+.fa-facebook:hover, .fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-vk:hover{
+	color: #ccc;
+}
+.back-to-top{
+	z-index: 3;
+	position: fixed;
+	right: 10px;
+	bottom: 100px;
+	width: 50px;
+	height: 50px;
+	border-color: transparent;
+	border-radius: 50%;
+	background-color: black;
+	display: none;
+}
+.back-to-top:hover,
+.back-to-top:focus{
+filter: brightness(1.5);
+outline: none;
+}
+.back-to-top:before,
+.back-to-top:after{
+	content: '';
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.back-to-top:before{
+	width: 5px;
+	height: 25px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: white;
+}
+.back-to-top:after{
+	width: 15px;
+	height: 15px;
+	transform: translate(-50%,-50%) rotate(45deg);
+	border-top:5px solid white;
+	border-left:5px solid white;
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="shortcut icon" href="img/icon/icon.png">
+	<title>IVWEB</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet"  href="css/style.css">	
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand"><img src="img/icon/logo.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#achor1" class="nav-link">Услуги</a>
+					</li>
+					<li class="nav-item">
+						<a href="#achor2" class="nav-link">Наши работы</a>
+					</li>
+					<li class="nav-item">
+						<a href="#achor3" class="nav-link">Сотрудничество</a>
+					</li>
+					<li class="nav-item">
+						<a href="#achor4" class="nav-link">Отзывы</a>
+					</li>
+					<li class="nav-item">
+						<a href="#achor5" class="nav-link">Контакты</a>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/sale.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Уважаемые партнеры</h1>
+					<h5>Весь апрель мы работаем в штатном режиме</h5>
+					<button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#myModal">Сделать заказ</button>
+				</div>
+			</div>
+		
+		<div class="carousel-item">
+				<img src="img/sale.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Сайт визитка</h1>
+					<h5>За 1 день</h5>
+					<button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#myModal">Сделать заказ</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/sale.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Продвижение в подарок</h1>
+					<h5>При заказе сегодня</h5>
+					<button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#myModal" >Сделать заказ</button>
+				</div>
+			</div>
+			</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row alert text-center">
+			<div class="col-12">
+				<h1 class="display-4">Услуги</h1>
+			</div>
+			<hr>
+		</div>
+		<div class="container padding">
+			<div class="row padding">
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<img src="img/icon/icon01.png" class="card-img-top">
+						<h4 class="card-title">Создание сайтов</h4>
+						<div class="card-body">
+						<ul>
+							<li>Одностраничные сайты</li>
+							<li>Визитки</li>
+							<li>Интернет магазины</li>
+							<li>Адаптивная версия</li>
+						</ul>
+						</div>
+						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Заказать сайт</button>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<img src="img/icon/icon02.png" class="card-img-top">
+						<h4 class="card-title">Продвижение сайтов</h4>
+						<div class="card-body">
+						<ul>
+							<li>По позициям</li>
+							<li>По трафику</li>
+							<li>По целевым действиям(лиды)</li>
+							<li>Контроль ваших продаж</li>
+						</ul>
+						</div>
+						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Заказать сайт</button>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<img src="img/icon/icon03.png" class="card-img-top">
+						<h4 class="card-title">Интернет реклама</h4>
+						<div class="card-body">
+						<ul>
+							<li>Таргетированная реклама Instagram</li>
+							<li>Яндек дирек</li>
+							<li>Google Awords</li>
+						</ul>
+						</div>
+						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Заказать сайт</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<img src="img/icon/icon04.png" class="card-img-top">
+						<h4 class="card-title">Брендинг и дизайн</h4>
+						<div class="card-body">
+						<ul>
+							<li>Разработка фирменного стиля</li>
+							<li>Вэб дизайн</li>
+							<li>Дизайн сувенирной продукции</li>
+						</ul>
+						</div>
+						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Заказать сайт</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<img src="img/icon/icon05.png" class="card-img-top">
+						<h4 class="card-title">Поддержка сайтов</h4>
+						<div class="card-body">
+						<ul>
+							<li>Техническая поддержка сайтов</li>
+							<li>Размещение текста, графики и т.д.</li>
+							<li>Доработка сайтов</li>
+						</ul>
+						</div>
+						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Заказать сайт</button>
+					</div>
+				</div>
+			</div>
+			<div id="myModal" class="modal zoom" tabindex="-1">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Сделать заказ</h4>
+							<button class="close" data-dismiss="modal">x</button>
+							</div>
+							<div class="modal-body">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-6">
+											<form class="form" action="https://formspree.io/mwkndjlk" method="POST">
+													  <div class="form-group">
+													    <label for="exampleInputNane1">Имя</label>
+													    <input type="name" class="form-control" id="exampleInputName1" name="name" aria-describedby="namelHelp" placeholder="Ваше имя">
+													    <small id="nameHelp" class="form-text text-muted" ></small>
+													  </div>
+													  <div class="form-group">
+													    <label for="exampleInputEmail1">Почта</label>
+													    <input type="Email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Ваша почта">
+													    <input type="hidden" name="_next" value="//site.io/thanks.html">
+													    <input type="hidden" name="_subject" value="Новый заказ">
+													    <input type="text" name="_gotha" style="display: none;">
+													  </div>
+													  <div class="form-group form-check">
+													    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+													    <label class="form-check-label" for="exampleCheck1">С условиями соглашения ознакомлен</label>
+													  </div>
+													  <button type="submit" class="btn btn-primary">Отправить</button>
+												</form>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div class="modal-footer"><button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+	<div class="job" id="achor2">
+		<div class="container">
+			<div class="block-title text-center">Наши работы
+				<hr>
+				</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://www.youtube.com/?gl=RU&hl=ru" target="blank"><div class="text">Перейти на сайт</div><img src="img/job1.png" alt="">
+							</a>
+							
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://www.sberbank.ru/ru/person" target="blank"><div class="text">Перейти на сайт</div><img src="img/job2.jpg" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://www.tinkoff.ru/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job3.jpg" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://dodopizza.ru/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job4.jpg" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://www.pwc.ru/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job5.png" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://okko.tv/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job6.jpg" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://www.ivi.ru/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job7.png" alt=""></a>
+						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="job-wrap">
+						<a href="https://rutube.ru/" target="blank"><div class="text">Перейти на сайт</div><img src="img/job8.jpg" alt=""></a>
+						
+					</div>
+				</div>
+		</div>
+	</div>
+	</div>
+</div>
+	<div class="container-fluid mt-3 " id="achor3">
+		<div class="block-title text-center">
+			Как мы работаем
+			<hr>
+			<p>Полный комплекс работ по созданию сайтов и  рекламе в интернете</p>
+		</div>
+		<div class="row padding jumbotron">
+			<div class="col-md-6 mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon1.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Заявка</h5>
+					<p class="lead">Вы оставляете заявку.</p>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-6  mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon2.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Звонок менеджера</h5>
+					<p class="lead">Наш менеджер связывается с Вами для уточнения деталей.</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon3.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Утверждение ТЗ</h5>
+					<p class="lead">Вы заполняете бриф, излагаете Ваше видение проекта, описываете все идеи и пожелания.</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon4.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Согласование условий</h5>
+					<p class="lead">Мы проводим детальный анализ проекта, утверждаем точные сроки и стоимость.</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6  mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon5.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Заключение договора</h5>
+					<p class="lead">Юридически фиксируем достигнутые договорённости.</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6  mb-4">
+				<div class="work">
+					<div class="work-logo"><img src="img/icon/icon6.png"></div>
+				<div class="work-content">
+					<h5 class="display-4">Наслаждение результатом</h5>
+					<p class="lead"></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+			
+		</div>
+	</div>
+	</figure>
+	<div class="container-fluid reviews" id="achor4">
+		<div class="block-title text-center">Отзывы
+			<hr>
+		</div>
+		<div class="row padding">
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review1.jpg" data-fancybox="gallery" data-transition-effect="circular"><img src="img/review1.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review2.jpg" data-fancybox="gallery" data-transition-effect="circular"><img src="img/review2.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review3.jpg" data-fancybox="gallery" data-transition-effect="circular"><img src="img/review3.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review4.jpg" data-fancybox="gallery" data-transition-effect="circular"><img src="img/review4.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review5.jpg" data-fancybox="gallery" data-transition-effect="circular"><img src="img/review5.jpg" >
+					</a></div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review6.jpg" data-fancybox="gallery"><img src="img/review6.jpg" >
+					</a></div>
+			</div>
+			<span id="dots">...</span>
+			<span id="more">
+				<div class="container-fluid">
+					<div class="row">
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review7.jpg" data-fancybox="gallery"><img src="img/review7.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review8.jpg" data-fancybox="gallery"><img src="img/review8.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review9.jpg" data-fancybox="gallery"><img src="img/review9.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review10.jpg" data-fancybox="gallery"><img src="img/review10.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review11.jpg" data-fancybox="gallery"><img src="img/review11.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review12.jpg" data-fancybox="gallery"><img src="img/review12.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review13.jpg" data-fancybox="gallery"><img src="img/review13.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review14.jpg" data-fancybox="gallery"><img src="img/review14.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review15.jpg" data-fancybox="gallery"><img src="img/review15.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review16.jpg" data-fancybox="gallery"><img src="img/review16.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review17.jpg" data-fancybox="gallery"><img src="img/review17.jpg" ></a>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-6">
+				<div class="reviews-wrap">
+					<a href="img/review18.jpg" data-fancybox="gallery"><img src="img/review18.jpg" ></a>
+				</div>
+			</div>
+			</div>
+			</div>
+		</span>
+		<button class="btn btn-success btn-lg" id="btn" onclick="readMore()">Смотреть еще</button>
+		</div>
+	</div>
+	<div class="container-fluid">
+			<div class="map">
+			<h2>Где нас найти</h2>
+			<hr>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2644421360947!2d39.06360501493207!3d44.999251572368486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f0508a874df9bf%3A0xc501a1cb1ea9951c!2z0YPQuy4g0JDQstGC0L7Qu9GO0LHQuNGC0LXQu9C10LksIDEvNyBLMiwg0JrRgNCw0YHQvdC-0LTQsNGALCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwgMzUwMDY1!5e0!3m2!1sru!2sru!4v1584821379188!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		    </div>
+	</div>
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row padding text-center">
+				<div class="col-12">
+					<h2>Наши контакты</h2>
+				</div>
+				<div class="col-12 social padding">
+				<a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/_mc_mz_" target="blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://vk.com/id123630783" target="blank"><i class="fab fa-vk"></i></a>
+				
+				</div>
+			</div>
+		</div>
+	</footer>
+			<div class="container-fluid">
+ 		<div class="row">
+ 			<a href="#" class="back-to-top"></a>
+ 		</div>
+ 	</div>
+		
+
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="//code-ya.jivosite.com/widget/XRzEaqCL6z" async></script>
+	<script src='js/script.js'></script>
+</html>
